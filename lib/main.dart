@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 
 void main() =>
   runApp(MaterialApp(
-    home: Text('Hey Flutter'),
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text('my first app'),
+        centerTitle: true,
+      ),
+    ),
   ));
 
